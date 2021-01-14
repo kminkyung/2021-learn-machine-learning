@@ -1,8 +1,8 @@
 # Tensorflow.js 시작하기
-[tensorflow.js](https://www.tensorflow.org/js/?hl=ko)
+[tensorflow.js](https://www.tensorflow.org/js/?hl=ko) 공식 페이지
 
 ### 지도학습/회귀
-Supervised learning/regression
+*Supervised learning/regression*
 * 서버 환경
     ```shell script
       npm i @tensorflow/tfjs-node
@@ -29,7 +29,7 @@ Supervised learning/regression
     ```
 
 ### MobileNet
-이미지 분류 모델
+*이미지 분류 모델*
 1. 브라우저 환경
     ```html
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"></script>
@@ -49,8 +49,8 @@ Supervised learning/regression
     </script>  
     }
     ```
-
-2. 서버 환
+   
+2. 서버 환경
     ```shell script
     npm i @tensorflow-models/mobilenet
     ```
