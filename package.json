@@ -1,0 +1,25 @@
+{
+  "name": "learn-ml",
+  "version": "1.0.0",
+  "main": "lemon-juice-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kminkyung/2021-learn-machine-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kminkyung/2021-learn-machine-learning/issues"
+  },
+  "homepage": "https://github.com/kminkyung/2021-learn-machine-learning#readme",
+  "description": "",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^2.8.3",
+    "@tensorflow/tfjs-node": "^2.8.3"
+  }
+}
