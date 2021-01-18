@@ -15,7 +15,7 @@ const fitParam = {
   epochs: 100,
   callbacks: {
     onEpochEnd: (epoch, logs) => {
-      console.log('epoch', epoch, logs, 'RMSE =>', Math.sqrt(logs.loss))
+      // console.log('epoch', epoch, logs, 'RMSE =>', Math.sqrt(logs.loss))
     }
   }
 };
