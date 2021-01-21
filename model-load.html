@@ -9,9 +9,11 @@
 </head>
 
 <body>
-<script>
-
-</script>
+  <script>
+    tf.loadLayersModel('localstorage://lemon').then(model => {
+      model.predict(tf.tensor([20])).print();
+    })
+  </script>
 
 </body>
 </html>
